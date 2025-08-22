@@ -1,0 +1,54 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ListAllBuckets",
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListAllMyBuckets"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "SiteBucketRead",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": "arn:aws:s3:::cloudlaunch-site-bucket-ifeoluwa/*"
+        },
+        {
+            "Sid": "PrivateBucketReadWrite",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:PutObject"
+            ],
+            "Resource": "arn:aws:s3:::cloudlaunch-private-bucket-ifeoluwa/*"
+        },
+        {
+            "Sid": "PrivateBucketList",
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket"
+            ],
+            "Resource": "arn:aws:s3:::cloudlaunch-private-bucket-ifeoluwa"
+        },
+        {
+            "Sid": "VisibleBucketListOnly",
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket"
+            ],
+            "Resource": "arn:aws:s3:::cloudlaunch-visible-only-bucket-ifeoluwa"
+        },
+        {
+            "Sid": "SiteBucketList",
+            "Effect": "Allow",
+            "Action": [
+                "s3:ListBucket"
+            ],
+            "Resource": "arn:aws:s3:::cloudlaunch-site-bucket-ifeoluwa"
+        }
+    ]
+}
