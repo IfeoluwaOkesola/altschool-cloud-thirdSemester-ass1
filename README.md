@@ -80,7 +80,7 @@ Host a public website and manage private file storage using Amazon S3, and contr
         }
     ]
 }
-
+```
 
 # Task 2: VPC Design for CloudLaunch Environment
 
@@ -143,6 +143,8 @@ Create a secure and logically separated network environment for future expansion
     }
   ]
 }
+
+```
 
 
 ## 🌐 AWS Account Access
