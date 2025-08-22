@@ -147,7 +147,8 @@ Create a secure and logically separated network environment for future expansion
 ```
 
 
-## 🌐 AWS Account Access
+## 🌐 AWS IAM Account Access
 
 - **Added to the goggle drive link submitted**
+- **Change password for user on login enforced**
 
