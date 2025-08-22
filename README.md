@@ -151,5 +151,5 @@ Create a secure and logically separated network environment for future expansion
 
 - **Console login URL:** [https://916863632865.signin.aws.amazon.com/console]  
 - **IAM Username:** `cloudlaunch-user`  
-- **Password:** `<AltschoolAss1>` *(Password reset enforced at first login ✅)*
+- **Password:** `AltschoolAss1` *(Password reset enforced at first login ✅)*
 
