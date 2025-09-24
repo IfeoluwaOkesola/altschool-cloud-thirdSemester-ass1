@@ -1,3 +1,9 @@
+## 🚨 Project Status
+
+All AWS resources for this project (e.g., EC2 instances, S3 buckets) have been **deprovisioned** to avoid ongoing cloud costs.  
+This does not affect the validity of the project — the repository contains all **infrastructure code, deployment scripts, and setup instructions** needed to reproduce the environment.
+
+
 # AltSchool Cloud Engineering – Third Semester Assignment 1 (Cloud)
 
 ## Task 1: S3 + IAM Setup
